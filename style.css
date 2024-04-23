@@ -1,0 +1,43 @@
+
+.header {
+    background-color: #333;
+    color: white;
+    font-size: 1000px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 10px solid black;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 10px solid black;
+  }
+
+  .footer .identitas-kelompok { /* Improve class naming for clarity */
+    margin: 10px auto; /* Add margin for better spacing */
+    text-align: center; /* Align content to the left */
+  }
+
+  .footer .kelompok,
+  .footer .copyright { /* Target multiple classes with same styles */
+    font-weight: bold;
+  }
+
+  .footer .anggotakelompok > span { /* Group member info */
+    display: block; /* Make each entry a separate line */
+    margin-bottom: 5px; /* Add spacing between entries */
+  }
+
+  .footer .line { /* Horizontal line separator */
+    border-top: 3px solid black;
+    margin: 10px 0; /* Add margin top and bottom */
+  }
